@@ -1,6 +1,6 @@
 {% set name = "psyplot-gui" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "ec57cdf581db262b643de6be7bdbb0983ad42b02ec1784c6bbde8b99a69d435f" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "2484f421f20f31ee24cb9060233a2913cd8851b7f4df63531865a0321f1c03d4" %}
 
 package:
   name: {{ name|lower }}
