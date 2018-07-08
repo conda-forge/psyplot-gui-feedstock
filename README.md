@@ -16,14 +16,15 @@ psyplot framework.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/psyplot-gui-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/psyplot-gui-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/psyplot-gui-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/psyplot-gui-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/psyplot-gui-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/psyplot-gui-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/psyplot-gui-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/psyplot-gui-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/psyplot-gui/badges/version.svg)](https://anaconda.org/conda-forge/psyplot-gui)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/psyplot-gui/badges/downloads.svg)](https://anaconda.org/conda-forge/psyplot-gui)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-psyplot--gui-green.svg)](https://anaconda.org/conda-forge/psyplot-gui) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/psyplot-gui.svg)](https://anaconda.org/conda-forge/psyplot-gui) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/psyplot-gui.svg)](https://anaconda.org/conda-forge/psyplot-gui) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/psyplot-gui.svg)](https://anaconda.org/conda-forge/psyplot-gui) |
 
 Installing psyplot-gui
 ======================
