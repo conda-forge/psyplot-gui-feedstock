@@ -12,12 +12,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
+  skip: True  # [py27]
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - psyplot
