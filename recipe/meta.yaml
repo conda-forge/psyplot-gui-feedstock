@@ -45,7 +45,7 @@ app:
 
 about:
   home: https://github.com/Chilipp/psyplot-gui
-  license: GPL-2.0
+  license: GPL-2.0-only
   license_family: GPL
   license_file: LICENSE
   summary: Graphical user interface for the psyplot package
