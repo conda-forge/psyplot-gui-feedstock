@@ -1,6 +1,6 @@
 {% set name = "psyplot-gui" %}
-{% set version = "1.2.4" %}
-{% set sha256 = "68e90641bb9786968ccb28be999a139e01622f6c859668d0189a68e1db7a4117" %}
+{% set version = "1.3.0" %}
+{% set sha256 = "d73e5f5291149587aa7ae125e9949528b1d127b9dd0f09a4a510a73c977768a0" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [py27]
+  skip: true  # [py27]
 
 requirements:
   build:
