@@ -3,7 +3,7 @@ About psyplot-gui
 
 Home: https://github.com/psyplot/psyplot-gui
 
-Package license: GPL-2.0-only
+Package license: LGPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/psyplot-gui-feedstock/blob/master/LICENSE.txt)
 
@@ -11,7 +11,7 @@ Summary: Graphical user interface for the psyplot package
 
 Development: https://github.com/psyplot/psyplot-gui
 
-Documentation: http://psyplot.readthedocs.io/projects/psyplot-gui
+Documentation: https://psyplot.github.io/psyplot-gui
 
 This package provides a graphical user interface to interact with the
 psyplot framework.
