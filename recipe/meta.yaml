@@ -45,15 +45,17 @@ app:
 
 about:
   home: https://github.com/psyplot/psyplot-gui
-  license: GPL-2.0-only
+  license: LGPL-3.0-only
   license_family: GPL
-  license_file: LICENSE
+  license_file:
+    - COPYING
+    - COPYING.LESSER
   summary: Graphical user interface for the psyplot package
 
   description: |
     This package provides a graphical user interface to interact with the
     psyplot framework.
-  doc_url: http://psyplot.readthedocs.io/projects/psyplot-gui
+  doc_url: https://psyplot.github.io/psyplot-gui
   dev_url: https://github.com/psyplot/psyplot-gui
 
 extra:
