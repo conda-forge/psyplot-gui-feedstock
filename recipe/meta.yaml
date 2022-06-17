@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py == 27]
 
 requirements:
@@ -26,6 +26,7 @@ requirements:
     - python
     - {{ pin_compatible('psyplot', max_pin='x.x') }}
     - qtconsole
+    - pyqtwebengine
     - fasteners
     - numpy >=1.14  # [win]
     - sphinx
