@@ -1,6 +1,6 @@
 {% set name = "psyplot-gui" %}
-{% set version = "1.4.0" %}
-{% set sha256 = "30b13b0cc9c619fd609745ab2f7299c2e8d1748ed679cf75550ab501a1d266f9" %}
+{% set version = "1.5.0" %}
+{% set sha256 = "005970958a636cb6818a984fd9c7e4849c14e7e363d87a6479f4ae5ca82c5565" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
-  skip: true  # [py == 27]
+  number: 0
+  skip: true  # [py<39]
 
 requirements:
   build:
@@ -22,9 +22,12 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
+    - versioneer
+    - tomli
   run:
     - python
-    - {{ pin_compatible('psyplot', max_pin='x.x') }}
+    - {{ pin_compatible('psyplot', max_pin='x.x', lower_bound='1.5.0') }}
     - qtconsole
     - pyqtwebengine
     - fasteners
@@ -48,19 +51,18 @@ app:
   type: desk
 
 about:
-  home: https://github.com/psyplot/psyplot-gui
+  home: https://codebase.helmholtz.cloud/psyplot/psyplot-gui
   license: LGPL-3.0-only
   license_family: GPL
   license_file:
-    - COPYING
-    - COPYING.LESSER
+    - LICENSES/
   summary: Graphical user interface for the psyplot package
 
   description: |
     This package provides a graphical user interface to interact with the
     psyplot framework.
   doc_url: https://psyplot.github.io/psyplot-gui
-  dev_url: https://github.com/psyplot/psyplot-gui
+  dev_url: https://codebase.helmholtz.cloud/psyplot/psyplot-gui
 
 extra:
   recipe-maintainers:
