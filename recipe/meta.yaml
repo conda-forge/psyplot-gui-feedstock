@@ -27,7 +27,7 @@ requirements:
     - tomli
   run:
     - python
-    - {{ pin_compatible('psyplot', max_pin='x.x') }}
+    - {{ pin_compatible('psyplot', max_pin='x.x', lower_bound='1.5.0') }}
     - qtconsole
     - pyqtwebengine
     - fasteners
