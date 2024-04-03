@@ -1,3 +1,3 @@
 #!/bin/bash
 
-$PYTHON -m pip install . --no-deps --ignore-installed -vvv
+$PYTHON -m pip install . --no-deps -vvv

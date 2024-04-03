@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [py == 27]
+  skip: true  # [py<39]
 
 requirements:
   build:
@@ -22,6 +22,9 @@ requirements:
   host:
     - python
     - pip
+    - setuptools
+    - versioneer
+    - tomli
   run:
     - python
     - {{ pin_compatible('psyplot', max_pin='x.x') }}
@@ -48,19 +51,18 @@ app:
   type: desk
 
 about:
-  home: https://github.com/psyplot/psyplot-gui
+  home: https://codebase.helmholtz.cloud/psyplot/psyplot-gui
   license: LGPL-3.0-only
   license_family: GPL
   license_file:
-    - COPYING
-    - COPYING.LESSER
+    - LICENSES/
   summary: Graphical user interface for the psyplot package
 
   description: |
     This package provides a graphical user interface to interact with the
     psyplot framework.
   doc_url: https://psyplot.github.io/psyplot-gui
-  dev_url: https://github.com/psyplot/psyplot-gui
+  dev_url: https://codebase.helmholtz.cloud/psyplot/psyplot-gui
 
 extra:
   recipe-maintainers:
