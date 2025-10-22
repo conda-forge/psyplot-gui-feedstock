@@ -305,6 +305,3 @@ Feedstock Maintainers
 
 * [@Chilipp](https://github.com/Chilipp/)
 
-
-<!-- dummy commit to enable rerendering -->
-
